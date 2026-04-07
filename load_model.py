@@ -3,7 +3,7 @@ import torch
 from transformers import AutoTokenizer, AutoModelForCausalLM
 
 # Set your Hugging Face token as an environment variable
-os.environ["HF_TOKEN"] = "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" # Replace YOUR_HF_TOKEN with your actual token
+os.environ["HF_TOKEN"] = "HF_APIKEY" # Replace YOUR_HF_TOKEN with your actual token
 
 model_name = "google/gemma-3-4b-it" # You can choose other variants like "google/gemma-7b" or "google/gemma-3-2b"
 
